@@ -1,0 +1,41 @@
+
+body{
+	font-family: sans-serif;
+}
+
+.titulo{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+
+.primerBloque{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.linea{
+	width: 50px;
+	height: 3px;
+	background: grey;
+}
+
+.coder1, .coder2, .coder3{
+	position: relative;
+	display: inline-block;
+}
+
+.coder4, .coder5, .coder6{
+	position: relative;
+	display: inline-block;
+}
+
+.nombres{
+	font-size: 15px;
+	position: relative;
+	text-align: right;
+	padding-right: 10px;
+	bottom: 30px;
+	color: white;
+}
+
