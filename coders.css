@@ -1,41 +1,58 @@
 
+/* Apliqué la tipografía a body, para que toda la página quede con la misma letra */
 body{
-	font-family: sans-serif;
+	font-family: 'Roboto Mono', monospace;
 }
 
+
+/* Cambié el color y tamaño de tipografía al título */
 .titulo{
 	font-size: 18px;
 	margin-bottom: 5px;
+	color: grey;
 }
 
+
+/* Le di espacio al margen de arriba, abajo e izquierdo al primer bloque de la página */
 .primerBloque{
 	margin-top: 30px;
-	margin-bottom: 10px;
-	margin-left: 10px;
+	margin-bottom: 30px;
+	margin-left: 30px;
 }
 
+
+/* Le di ancho, alto y color a la línea bajo el título  */
 .linea{
 	width: 50px;
 	height: 3px;
 	background: grey;
 }
 
-.coder1, .coder2, .coder3{
-	position: relative;
-	display: inline-block;
+
+/* Le di el mismo margen izquierdo de 30px al segundo y tercer bloque, para que queden alineados 
+con el primer bloque*/
+.segundoBloque, .tercerBloque{
+	margin-left: 30px;
 }
 
-.coder4, .coder5, .coder6{
+
+/* Agrupé a todas las coders en la misma class */
+.coder{
 	position: relative;
+	margin-right: 12px;
 	display: inline-block;
+	/* float: left; */
 }
 
+
+/* Agrupé los nombres de las coders en la misma class, ya que el código hacía exactamente lo
+mismo para cada nombre*/
 .nombres{
-	font-size: 15px;
+	font-size: 12px;
 	position: relative;
 	text-align: right;
-	padding-right: 10px;
-	bottom: 30px;
+	padding-right: 12px;
+	bottom: 35px;
 	color: white;
+	background: grey;
 }
-
